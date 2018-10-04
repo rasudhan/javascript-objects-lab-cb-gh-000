@@ -1,8 +1,8 @@
 var recipes = {sambar:"lentils"};
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  object[key]=value
-  return object
+  var newObj=Object.assign({},object,{key:value})
+  return newObj
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
