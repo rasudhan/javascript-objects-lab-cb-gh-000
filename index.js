@@ -1,1 +1,1 @@
-var recipes = {sambar:"lentils"}
+var recipes = {sambar:"lentils"};
